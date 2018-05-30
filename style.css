@@ -21,14 +21,46 @@ body{
 #nav{
 	width:180px; 
 	float:left;
+
+
+}
+#nav img{
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 50%;
+	opacity: 0.75;
+
+}
+#nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    background-color: #f1f1f1;
+    text-align:center
+}
+#nav li a{
+	display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#nav li a:hover{
+	 background-color: #555;
+    color: white;
 }
 #main{
 	width: 600px;
 	float: right;
+
 }
 #footer{
 	text-align: right;
 	background-color: #999FFF;
 	color:white;
 	clear: both;
+	bottom: 0px;
+	
 }
