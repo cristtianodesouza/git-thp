@@ -2,76 +2,7 @@
 <html>
   <head>
     <title>PINTO Web CV</title>
-    <!--<link rel="stylesheet" type="text/css" href="style.css">-->
-    <style>
-    body{
-	background-color: blue;
-}
-#container{
-	background-color: #E0F8E6;
-	width: 800px;
-	height: 640px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#header{
-	background-color: #CBF862;
-	color: grey;
-	padding:5px;
-	padding-right: 100px;
-	text-align: right;
-}
-#content{
-	padding:10px;
-}
-#nav{
-	width:180px; 
-	float:left;
-
-
-}
-#nav img{
-	width: 100px;
-	height: 100px;
-	margin: 0px;
-	padding: 0px;
-	border-radius: 50%;
-	opacity: 0.75;
-
-}
-#nav ul{
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 170px;
-    background-color: #f1f1f1;
-    text-align:center
-}
-#nav li a{
-	display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-#nav li a:hover{
-	 background-color: #555;
-    color: white;
-}
-#main{
-	width: 600px;
-	float: right;
-
-}
-#footer{
-	text-align: right;
-	background-color: #999FFF;
-	color:white;
-	clear: both;
-	bottom: 0px;
-	
-}  
-    </style>
-    
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
   </head>
@@ -81,53 +12,72 @@
     <strong>teste2</strong>
     <em>teste3</em>
     <a href = "index2.html">CLique para ir</a>-->
-    <h1>PINTO Cristtiano de souza</h1>
-    <p>Programateur</p>
-    <p> 
-      <figure>
-        <a href="photo.jpg" title="Cliquez pour agrandir"> <img src ="photo.jpg" alt="photo de monsieur pinto"/> </a> 
-      </figure>
-    </p>
-    <h2>Mon Expérience</h2>
-    <ul>
-      <li>
-        <strong>De 2003 à 2005:</strong> Anamaria
-      </li>
-      <li>
-        <strong>De 2006 à 2007:</strong> HS
-      </li>
-      <li>
-        <strong>De 2007 à 2010:</strong> CUCA
-      </li>
-      <li>
-        <strong>De 2009 à 2014:</strong> Farias Brito
-      </li>
-      <li>
-        <strong>De 2015 à 2016:</strong> Fábrica de imagens
-      </li>
-      <li>
-        <strong>De 2015 à 2017:</strong> Sabiá
-      </li>
-    </ul>
-    <h2>Mes Compétences:</h2>
-    <ul>
-      <li>
-        HTML 5 - <strong>80%</strong>
-      </li>
-      <li>
-        CSS 3 - <strong>60%</strong>
-      </li>
-      <li>
-        Javascript - <strong>90%</strong>
-      </li>
-      <li>
-        PHP - <strong>60%</strong>
-      </li>
-      <li>
-        SQL - <strong>90%</strong>
-      </li>
-    </ul>
-    <h2>Ma Formation:</h2>
-    <p>Au Brésil, j'ai eu l'opportunité d'obtenir un diplôme en informatique. Cela m'a donné une base solide pour l'apprentissage de divers outils informatiques, tels que: programmation, base de données, développement de systèmes et jeux numériques. J'ai aussi eu l'opportunité de débuter une maîtrise en infographie que je n'ai pas pu compléter à cause de mon voyage en France. </p>
+    <div id="container">
+      <div id="header">
+        <h1>PINTO Cristtiano de souza</h1>
+        <p>Programateur</p>
+      </div>
+      <div id="content">
+        <div id="nav">
+           
+            <figure>
+              <a href="photo.jpg" title="Cliquez pour agrandir"> <img src ="photo.jpg" alt="photo de monsieur pinto"/> </a> 
+            </figure>
+            <ul>
+              <li><a href="#monexperience">Mon Expérience</a></li>
+              <li><a href="#mescompetences">Mes Compétences</a></li>
+              <li><a href="#maformation">Ma Formation</a></li>
+            </ul>
+          
+        </div>
+        <div id="main">
+              <h2>Mon Expérience</h2>
+              <ul>
+                <li>
+                  <strong>De 2003 à 2005:</strong> Anamaria
+                </li>
+                <li>
+                  <strong>De 2006 à 2007:</strong> HS
+                </li>
+                <li>
+                  <strong>De 2007 à 2010:</strong> CUCA
+                </li>
+                <li>
+                  <strong>De 2009 à 2014:</strong> Farias Brito
+                </li>
+                <li>
+                  <strong>De 2015 à 2016:</strong> Fábrica de imagens
+                </li>
+                <li>
+                  <strong>De 2015 à 2017:</strong> Sabiá
+                </li>
+              </ul>
+              <h2>Mes Compétences</h2>
+              <ul>
+                <li>
+                  HTML 5 - <strong>80%</strong>
+                </li>
+                <li>
+                  CSS 3 - <strong>60%</strong>
+                </li>
+                <li>
+                  Javascript - <strong>90%</strong>
+                </li>
+                <li>
+                  PHP - <strong>60%</strong>
+                </li>
+                <li>
+                  SQL - <strong>90%</strong>
+                </li>
+              </ul>
+              <h2>Ma Formation</h2>
+              <p>Au Brésil, j'ai eu l'opportunité d'obtenir un diplôme en informatique. Cela m'a donné une base solide pour l'apprentissage de divers outils informatiques, tels que: programmation, base de données, développement de systèmes et jeux numériques. J'ai aussi eu l'opportunité de débuter une maîtrise en infographie que je n'ai pas pu compléter à cause de mon voyage en France. </p>
+                  </div>
+                </div>
+      <div id="footer">
+          <p>Created by Pinto Cristtiano de souza</p>
+          <p>Copyright &copy 2018</p>
+      </div>
+    </div>   
   </body>
 </html>
